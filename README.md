@@ -1,4 +1,4 @@
-# # Pluralsight
-# Pluralsight Learning Modules
+# Pluralsight
+### Pluralsight Learning Modules
 SaltStack
 Salt: Getting Started
