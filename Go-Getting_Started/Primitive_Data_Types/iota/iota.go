@@ -4,9 +4,14 @@ import (
 	"fmt"
 )
 
+// const (
+// 	first = 1
+// 	second = "second"
+// )
+
 const (
-	first = 1
-	second = "second"
+	first = iota
+	second = iota
 )
 
 func main() {
