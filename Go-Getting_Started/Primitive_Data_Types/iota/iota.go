@@ -14,11 +14,21 @@ import (
 // 	second = iota
 // )
 
+// const (
+// 	first = iota + 6
+// 	second
+// )
+
 const (
-	first = iota + 6
-	second = 2 << iota
+	first = iota 
+	second
+	third
+)
+
+const (
+	fourth = iota
 )
 
 func main() {
-	fmt.Println(first, second)
+	fmt.Println(first, second, third, fourth)
 }
