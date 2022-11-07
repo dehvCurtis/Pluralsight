@@ -4,8 +4,11 @@ import (
 	"fmt"
 )
 
-const pi = 3.14
+const (
+	first = 1
+	second = "second"
+)
 
 func main() {
-	fmt.Println(pi)
+	fmt.Println(first, second)
 }
