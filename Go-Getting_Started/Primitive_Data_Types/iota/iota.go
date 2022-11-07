@@ -9,9 +9,14 @@ import (
 // 	second = "second"
 // )
 
+// const (
+// 	first = iota
+// 	second = iota
+// )
+
 const (
-	first = iota
-	second = iota
+	first = iota + 6
+	second = 2 << iota
 )
 
 func main() {
