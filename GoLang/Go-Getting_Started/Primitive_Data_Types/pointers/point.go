@@ -5,16 +5,7 @@ import (
 )
 
 func main() {
-	// var firstName *string = new(string)
-	// *firstName = "Arthur"
-	// fmt.Println(*firstName)
-
-	firstName := "arthur"
+	var firstName *string = new(string)
+	*firstName = "Arthur"
 	fmt.Println(firstName)
-
-	ptr := &firstName
-	fmt.Println(ptr, *ptr)
-
-	firstName = "Trish"
-	fmt.Println(ptr, *ptr)
 }
