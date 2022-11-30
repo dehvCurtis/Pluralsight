@@ -14,4 +14,10 @@ func main() {
 
 	firstName := "Arthur"
 	fmt.Println(firstName)
+
+	b := true
+	fmt.Println(b)
+
+	c := complex(4,3)
+	fmt.Println(c)
 }
