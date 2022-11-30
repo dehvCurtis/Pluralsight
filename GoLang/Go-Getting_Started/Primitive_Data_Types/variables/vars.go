@@ -20,4 +20,7 @@ func main() {
 
 	c := complex(4,3)
 	fmt.Println(c)
+
+	r, im := real(c), imag(c)
+	fmt.Println(r,im)
 }
